@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link />
+</head>
+<body>
+  <!-- your web page content goes here -->
+  <h1>Share files</h1>
+
+  <form action = "http://127.0.0.1:8000/share/upload/" method = "POST" enctype = "multipart/form-data">
+      <!--{% csrf_token %} -->
+      <label> token name: </label>
+      <input type = "text" name = "user_token" id = "my_id" value = 'token_key'>
+      <br>
+      <br>
+      <label>upload (doc,xls,pdf) : </label>
+      <input type = "file" name = "files" >
+      <div>message: to upload many file take them in single zip</div>
+      <br>
+      <input type ="submit" value = 'Submited'>
+  </form> 
+
+</body>
+</html>

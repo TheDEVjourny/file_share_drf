@@ -1,0 +1,11 @@
+how serializer works
+    custom serializer 
+		- we can create a serial which will take data in list format and if model-structure is different from serial we can customisedly store data in models 
+		- model relation
+		- uuid
+		
+learning->
+	- How do I use django rest framework to send a file in response?(stackoverflow) 
+		https://stackoverflow.com/questions/30438729/how-do-i-use-django-rest-framework-to-send-a-file-in-response
+	- 
+	
